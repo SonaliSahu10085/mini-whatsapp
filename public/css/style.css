@@ -1,0 +1,98 @@
+body{
+    /* font-family: "Dancing Script"; */
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: rgb(117, 185, 245);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    border-bottom: 1px solid rgb(114, 188, 253);
+    top: 0;
+}
+
+.nav div{
+   margin-left: 15px;
+   margin-right: 15px;
+}
+
+.nav #heading{
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(14, 2, 140);
+
+}
+
+.nav button{
+    background-color: rgb(14, 2, 140);
+    color: white;
+    padding: 8px 15px;
+    border-style: none;
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+.nav button:hover{
+    background-color: white;
+    color: black;
+}
+.container {
+    display: flex;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    padding: 0px 60px;
+}
+.card {
+    width: 180px;
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(45, 148, 203);
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgb(171, 226, 255);
+}
+.card:hover{
+    box-shadow: 5px 7px 10px rgb(171, 226, 255); 
+}
+.card span{
+    font-family: "Dancing Script";
+}
+.card .msg{
+    padding: 8px;
+    height: 150px;
+    background-color:rgb(52, 125, 233);
+    color: white;
+    box-shadow: 0px 2px 3px rgb(172, 205, 255);
+    border-radius: 2px;  
+    font-size: 14px;
+}
+
+
+#time,#date{
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.icons {
+    display: flex;
+    justify-content: end;
+    margin-top: 5px;
+}
+
+.icons form button{
+    border-style: none;
+    padding: 5px;
+    background-color: transparent;
+}
+.icons form i{
+  color: rgb(14, 2, 140);
+}
+
+.icons form button:hover{
+    font-size: 16px;
+}

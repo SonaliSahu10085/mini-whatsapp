@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Whatsapp - Create New Chat</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/form.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <div id="heading">Mini Whatsapp</div>
+    </div>
+    <div class="form-container">
+      <div>Create New Chat</div>
+      <form method="POST" action="/chats">
+        <label for="from">Add Sender</label>
+        <br />
+        <input
+          type="text"
+          name="from"
+          id="from"
+          placeholder="enter your name.."
+        />
+        <br />
+        <label for="to">Add Receiver</label>
+        <br />
+        <input
+          type="text"
+          name="to"
+          id="to"
+          placeholder="enter receiver name.."
+        />
+        <br />
+        <label for="msg">Message</label>
+        <br />
+        <textarea
+          type="text"
+          name="msg"
+          id="msg"
+          placeholder="write your msg..."
+        ></textarea>
+        <div class="btns">
+          <button type="submit">Send</button>
+          <button type="reset">Clear</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
